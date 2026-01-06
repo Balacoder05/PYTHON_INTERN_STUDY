@@ -56,4 +56,26 @@ print('This will also work!')
 n=10
 for i in range(n):
     print(i,end=" ")
-    
+
+# Python Output Numbers
+
+
+print(3)
+print(358)
+print(50000)
+
+
+print(3 + 3)
+print(2 * 5)
+
+# Mix Text and Numbers
+
+print("I am", 35, "years old.")
+
+
+# Python Comments
+
+
+#This is a comment
+
+print("Python programming")
