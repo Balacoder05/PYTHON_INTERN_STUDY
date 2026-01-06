@@ -126,4 +126,13 @@ print(d.replace("B","b"))
 e="balamurugan ,elangovan"
 print(e.split())
 
+# Python - String Concatenation
 
+q="hello"
+w="world"
+print(q+w)
+
+e="hello"
+r="world"
+t=e+" "+r
+print(t)
