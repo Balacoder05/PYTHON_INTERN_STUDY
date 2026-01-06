@@ -167,3 +167,69 @@ print(txt)
 
 txt = "We are the so-called \"Vikings\" from the north."
 print(txt)
+
+
+
+
+# Python - String Methods
+
+#lower()
+
+a="Hello"
+print(a.upper()) #Convert to lowercase
+print(a.lower())  #Convert to uppercase
+print(a.capitalize())  #First letter uppercase
+print(a.title()) #First letter of each word uppercase
+print(a.strip())   #Remove spaces from both sides
+print(a.replace("H","g")) #Replace text
+
+text = "apple,banana,orange"  # Split string into list
+print(text.split(","))
+
+# join() – Join list into string
+
+words = ["Hello", "World"]
+print(" ".join(words))
+
+
+# find() – Find position of text
+
+print(a.find("hello"))
+
+
+# startswith() – Check starting word
+
+print(a.startswith("Hello"))
+
+# endswith() – Check ending word
+
+f="file.txt"
+
+print(f.endswith(".txt"))
+
+
+
+# count() – Count occurrences
+
+c="banana"
+print(c.count("b"))
+
+# isalpha() – Check only letters
+
+text = "Python"
+print(text.isalpha())
+
+
+#isdigit() – Check only numbers
+
+text = "12345"
+print(text.isdigit())
+
+
+# isalnum() – Letters and numbers
+
+text = "Python123"
+print(text.isalnum())
+
+
+
