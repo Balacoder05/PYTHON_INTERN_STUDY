@@ -19,3 +19,8 @@ print(X,Y)
 #This is a comment
 
 print("hello World!")
+
+
+#statements
+
+print("Python is funny language")
