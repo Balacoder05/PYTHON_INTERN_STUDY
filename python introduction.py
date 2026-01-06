@@ -24,3 +24,10 @@ print("hello World!")
 #statements
 
 print("Python is funny language")
+
+
+#Many statements
+
+print("Hello World!")
+print("Have a good day.")
+print("Learning Python is fun!")
