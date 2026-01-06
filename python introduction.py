@@ -13,3 +13,9 @@ if (5>2):
 X=5
 Y="Balamurugan"
 print(X,Y)
+
+#Comments
+
+#This is a comment
+
+print("hello World!")
