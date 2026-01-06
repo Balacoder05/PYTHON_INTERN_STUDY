@@ -8,3 +8,8 @@ print(sys.version)
 
 if (5>2):
     print("Five is greater than two")
+
+#python veriable
+X=5
+Y="Balamurugan"
+print(X,Y)
