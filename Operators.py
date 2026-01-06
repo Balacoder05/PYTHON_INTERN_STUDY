@@ -96,3 +96,28 @@ print(not(x > 3 and x < 10))
 
 # Identity Operators
 
+# is (Returns True if both variables are the same object)
+
+x = ["apple", "banana"]
+y = ["apple", "banana"]
+z = x
+
+print(x is z)
+print(x is y)
+print(x == y)
+
+
+# is not  (The is not operator returns True if both variables do not point to the same object)
+
+x = ["apple", "banana"]
+y = ["apple", "banana"]
+
+print(x is not y)
+
+
+# is - Checks if both variables point to the same object in memory
+# == - Checks if the values of both variables are equal
+
+
+
+# Membership Operators
