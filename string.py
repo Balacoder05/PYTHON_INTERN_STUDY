@@ -161,3 +161,9 @@ print(txt)
 txt = f"The price is {20 * 59} dollars"
 print(txt)
 
+# Python - Escape Characters
+
+# txt = "We are the so-called "Vikings" from the north." # error because of inside use double quation
+
+txt = "We are the so-called \"Vikings\" from the north."
+print(txt)
