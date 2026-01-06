@@ -102,3 +102,38 @@ print(z)
 # Output Variables
 
 print("Bala")
+
+
+# Global Variables
+
+last="Murugan"
+
+def fun():
+
+    print("Bala"+last)
+
+fun()
+
+# Create a variable inside a function, with the same name as the global variable
+
+x = "awesome"
+
+def myfunc():
+  x = "fantastic"
+  print("Python is " + x)
+
+myfunc()
+
+print("Python is " + x)
+
+
+
+#The global Keyword
+
+
+def func():
+   global y
+   y="good"
+
+func()
+print("very"+y)
