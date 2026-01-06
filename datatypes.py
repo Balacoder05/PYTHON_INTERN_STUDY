@@ -98,3 +98,32 @@ print(random.randrange(1,100))
 
 a=[1,2,3,4,5,6,7,8,9,10]
 print(random.choice(a))
+
+
+# Specify a Variable Type
+
+x = int(1)
+y = int(2.8)
+z = int("3")
+print(x)
+print(y)
+print(z)
+
+
+x = float(1)
+y = float(2.8)
+z = float("3")
+w = float("4.2")
+print(x)
+print(y)
+print(z)
+print(w)
+
+
+
+x = str("s1")
+y = str(2)
+z = str(3.0)
+print(x)
+print(y)
+print(z)
