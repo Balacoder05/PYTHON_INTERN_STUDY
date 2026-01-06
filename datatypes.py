@@ -44,3 +44,20 @@ print(type(x))
 
 d=str("printing string")
 print(type(d))
+
+
+# Python Numbers
+
+
+# int
+# float
+# complex
+
+
+e=1  #int
+f=2.5 #float
+g=3+4j #complex
+
+print(type(e))
+print(type(f))
+print(type(g))
