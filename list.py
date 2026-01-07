@@ -142,3 +142,63 @@ for i in a:
     print(i)
 
 
+# oop Through the Index Numbers
+
+a=[1,2,3,4,5]
+for i in range(len(a)):
+    print(i)
+
+
+# Using a While Loop
+
+
+thislist = ["apple", "banana", "cherry"]
+i = 0
+while i < len(thislist):
+  print(thislist[i])
+  i = i + 1
+
+
+# List Comprehension
+
+# List comprehension is a short and simple way to create a list using a loop.
+
+
+# newlist = [expression for item in iterable if condition == True]
+
+
+fruits = ['apple', 'banana', 'cherry']
+
+num=[1,2,3,4,5]
+list2=[x*x for x in num]
+print(list2)
+
+
+# Return "orange" instead of "banana":
+
+newlist = [x if x != "banana" else "orange" for x in fruits]
+
+
+#sort
+
+b=[1,6,3,4,5,2]
+b.sort()
+print(b)
+
+
+#list methods
+
+
+# append()	Adds an element at the end of the list
+
+list1=[1,2,3,4,5]
+list1.append("python")
+print(list1)
+
+
+# clear()
+
+# clear()	Removes all the elements from the list
+
+
+
