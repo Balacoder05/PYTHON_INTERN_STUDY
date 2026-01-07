@@ -1,5 +1,14 @@
  #Tuples
 
+#immutable
+
+#ordered
+
+#Allow duplicate
+
+#()
+
+
 tup=(1,2,3)
 print(type(tup))
 
