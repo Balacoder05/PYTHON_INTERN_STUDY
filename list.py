@@ -200,5 +200,91 @@ print(list1)
 
 # clear()	Removes all the elements from the list
 
+list1=[1,2,3,4,5]
+list1.clear()
+print(list1)
 
+
+# copy()	Returns a copy of the list
+
+list2=[1,2,3,4,5]
+
+a=list2.copy()
+print(a)
+
+
+# count()	Returns the number of elements with the specified value
+
+list3=[1,2,3,4,4,4,5]
+
+b=list3.count(4)
+
+print(b)
+
+
+# extend()	Add the elements of a list (or any iterable), to the end of the current list
+
+a=["car","van","banana"]
+b=[1,2,3]
+
+a.extend(b)
+
+print(a)
+
+
+# index()	
+# Returns the index of the first element with the specified value
+
+# Syntax
+# list.index(elmnt, start, end)
+
+a=[1,2,3,4,5]
+print(a.index(1))
+
+
+# insert()
+
+# Adds an element at the specified position
+
+
+fruits = ['apple', 'banana', 'cherry']
+
+fruits.insert(2,"car")
+
+print(fruits)
+
+
+# pop()	
+
+# Removes the element at the specified position
+
+
+g=[1,2,3,4,5]
+g.pop()
+print(g)
+
+
+# remove()	
+# Removes the item with the specified value
+
+
+list11=[1,2,3,4,5]
+list11.remove(1)
+print(list11)
+
+# reverse()	
+
+# Reverses the order of the list
+
+mylist=["apple","Banana","camel"]
+mylist.reverse()
+print(mylist)
+
+
+# sort()	
+# Sorts the list
+
+c=[1,2,3,5,6,4]
+c.sort()
+print(c)
 
