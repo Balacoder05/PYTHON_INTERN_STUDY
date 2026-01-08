@@ -114,3 +114,39 @@ elif marks>=60:
     print("Grade C")
 else:
     print("Fail")
+
+#short hand if
+
+a=5
+b=10
+
+if a>b:print("a is big number")
+
+
+#short hand if else
+
+
+c=100
+d=20
+
+print("c id grater then d ") if c>d else print("c is less then d")
+
+
+# Ternary Operator (Shorthand if–else)
+
+# <true_value> if <condition> else <false_value>
+
+
+
+# match case
+
+language =input("Enter the language you want....")
+match language:
+    case "html" | "xhtml":  # use | one or more posibilities
+        print("html language code")
+    case "css":
+        print("css language code")
+    case "python":
+        print("python language code")
+    case _:
+        print("other language code")
