@@ -113,7 +113,7 @@ elif marks>=75:
 elif marks>=60:
     print("Grade C")
 else:
-    print("Fail")
+    print("Fail")   
 
 #short hand if
 
