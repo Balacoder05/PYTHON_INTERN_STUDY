@@ -90,4 +90,95 @@ pattern(5)
 
 
 # Recursive Function
+import sys
+print(sys.getrecursionlimit())
 
+
+from time import sleep
+def greek():
+    print("Hello Bala")
+    sleep(0.30)
+    greek()
+greek()
+
+
+#count printed value
+
+from time import sleep
+count=0
+def greek():
+    global count
+    print("Hello Bala",count)
+    count=count+1
+    sleep(0.30)
+    greek()
+greek()
+
+
+#factorial using function
+
+
+def factorial(n):
+    fact=1
+    for i in range(1,n+1):
+        fact=fact*i
+    return fact
+result=factorial(5)
+print(result)
+
+
+#factorial using recursive function
+
+
+def factorial(n):
+    if n==1:
+        return 1
+    
+    return n*factorial(n-1)
+result=factorial(5)
+print(result)
+
+
+
+#map function
+
+
+a=[1,2,3,4,5]
+result=map(lambda x:x*2,a)
+print(list(result))
+
+a=[1, 2, 3, 4, 5]
+result=map(lambda x:x**2,a)
+print(list(result))
+
+n=[2, 5, 8, 10]
+result=map(lambda x: f" Number is {x}",n)
+print(list(result))
+
+
+a=[1, 2, 3, 4, 5]
+result=map(lambda x: x+5,a)
+print(list(result))
+
+
+words = ["bala", "ravi", "sam"]
+result=map(lambda x:x.upper()+"!",words)
+print(list(result))
+
+
+
+word=[1, 2, 3, 4, 5]
+result=map(lambda x:x*3,word)
+print(list(result))
+
+
+list1=["apple", "banana", "cherry"]
+result=map(lambda x:x.capitalize(),list1)
+print(list(result))
+
+
+#filter
+
+a=[1,2,3,4,5,6,7,8,9,10]
+result=filter(lambda x: x%2==0,a)
+print(list(result))
