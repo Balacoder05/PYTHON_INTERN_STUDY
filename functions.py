@@ -48,6 +48,37 @@ print(add(20,30))
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+#lambda function
+
+# Check a number is Even or Odd
+
+answer=lambda x: "Even" if x%2==0 else "odd"
+print(answer(7))
+
+# Write a lambda function to find the square of a number.
+
+answer=lambda a:a*a 
+print(answer(5))
+
+# Write a lambda function to find the maximum of two numbers.
+
+
+answer=lambda a,b: a if a>b else b
+print(answer(5,2))
+
+
 #using function to pattern
 
 def pattern(a):
@@ -56,3 +87,7 @@ def pattern(a):
             print("*",end=" ")
         print()
 pattern(5)
+
+
+# Recursive Function
+
