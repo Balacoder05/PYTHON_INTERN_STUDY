@@ -182,3 +182,47 @@ print(list(result))
 a=[1,2,3,4,5,6,7,8,9,10]
 result=filter(lambda x: x%2==0,a)
 print(list(result))
+
+#reduce
+
+from functools import reduce
+
+from functools import reduce
+
+#find maximum
+
+num=[3,5,8,9,1]
+maximum=reduce(lambda x,y:x if x>y else y,num)
+print(maximum)
+
+
+
+# Multiply all numbers
+
+num=[2,3,5,6,7]
+multi=reduce(lambda x,y:x*y,num)
+print(multi)
+
+
+# Write a Python program using reduce() to find the sum of all even numbers in the list.
+num = [1, 2, 3, 4, 5, 6, 7, 8]
+
+result=reduce(lambda x,y: x+y if y%2==0 else x,num,0)
+print(result)
+
+
+#Enumerate
+
+
+fruits = ['apple', 'banana', 'cherry']
+for index,fruit in  enumerate (fruits):
+  print(index,fruit)
+
+
+
+#zip
+list1=[1,2,3,4,5]
+list2=["Bala","Sri","Vignesh","Guru","Mukesh"]
+
+result=zip(list1,list2)
+print(list(result))
